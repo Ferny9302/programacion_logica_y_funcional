@@ -165,6 +165,9 @@ menu = do
             let x = read n1 :: Integer
             putStrLn("El resultado es: "++ show(impar x) )
             menu
+        _ -> do
+            putStrLn("Opcion no valida")
+            menu
 
 -- public static void main
 main :: IO ()
