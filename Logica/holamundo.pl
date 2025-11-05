@@ -13,3 +13,7 @@ progenitor(tomas,isabel).
 progenitor(jose,ana).
 progenitor(jose,patricia).
 progenitor(patricia,jaime).
+
+% progenitor(X, ana), progenitor(Abuelo,X), progenitor(Abuelo, Tio).
+% progenitor(X, jaime), progenitor(Abuelo, X), progenitor(Abuelo, ana). ¿ Es ana tia de jaime?
+% progenitor(X, isabel), progenitor(Abuelo, X), progenitor(Abuelo, ana). ¿ Es ana tia de isabel?
