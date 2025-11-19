@@ -61,3 +61,28 @@ fam(X,Y):- nivel(X,Z), nivel(Y,Z).
 %familia(X,hylobates), familia(Y,X), nivel(Y,Z).
 
 %7. ¿Qué géneros comparten la misma subfamilia con Pan?
+%subfamilia(pan,X).
+ 
+%8. ¿Cuál es el ancestro común más cercano entre Homo y Gorilla?
+%familia(Z,X), familia(W,Y), familia(A,Z), familia(A,W).
+ 
+%9. ¿Es el orangután un homínido?
+hominido(A):- familia(X,A), familia(Y,X), familia(hominidae,Y).
+ 
+%10. ¿Cuáles son todas las especies que pertenecen a la familia Hominidae?
+%familia(hominidae,Y), familia(Y,X), familia(X,Z), familia(Z,Especies).
+ 
+%11. ¿Qué géneros son hermanos taxonómicos de Homo?
+%familia(Z,homo), familia(Z,Y).
+ 
+%12. ¿Comparten Homo y Hylobates la misma familia?
+%fam(homo,hylobates).
+ 
+%13. ¿Cuáles son los descendientes directos de la subfamilia Homininae?
+%familia(homininae,X).
+ 
+%14. ¿Qué géneros están bajo la familia Hominidae?
+%familia(hominidae,Y), familia(Y,X), familia(X,Z).
+ 
+%15. ¿Cuál es la ruta taxonómica completa desde Homo hasta la superfamilia?
+%familia(A,homo), familia(B,A), familia(C,B), familia(D,C).
