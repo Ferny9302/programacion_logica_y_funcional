@@ -13,13 +13,6 @@ velocidad(red1, 1000).
 velocidad(red2, 100).
 
 
-
-
-
-
-
-
-
 %Desarrolle los hechos en base a la imagen.
 %Muestre las PCs de la topología de estrella (red1).
 %topologia(red1,X).
