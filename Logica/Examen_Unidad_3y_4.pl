@@ -16,8 +16,8 @@ lenguaje(smalltalk,self).
 lenguaje(self,javascript).
 
 %Estas las use para las reglas aritmeticas y comparador.
-edad(fortran,1957).
-edad(algol,1958).
+edad(fortran,2002).
+edad(algol,2006).
 
 
 
